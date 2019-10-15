@@ -4,11 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MultiplyComponent } from './multiply/multiply.component';
+import { AboutUSComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MultiplyComponent
+    MultiplyComponent,
+    AboutUSComponent
   ],
   imports: [
     BrowserModule,
@@ -16,6 +18,6 @@ import { MultiplyComponent } from './multiply/multiply.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [MultiplyComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,9 @@
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
